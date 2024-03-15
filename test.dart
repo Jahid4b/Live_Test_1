@@ -24,4 +24,4 @@ void applyPriceDiscount(List<Map<String, dynamic>> fruits, double discount) {
     double discountAmount = fruit['price'] * (discount / 100);
     fruit['price'] = fruit['price'] - discountAmount;
   }
-}
+} // Assignment
